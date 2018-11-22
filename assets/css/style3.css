@@ -9,7 +9,10 @@
 /*Start of CSS*/
 
 body {
-  background-color: #C2DFE3;
+  background: #4B79A1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 a:link {
@@ -73,7 +76,7 @@ li a:hover{
 
 #mainpage{
   text-align: center;
-  border: 10px solid violet;
+  /*border: 10px solid violet;*/
 }
 
 p {
@@ -84,7 +87,7 @@ p {
   background-color: #E0FBFC;
   padding: 5px 0 20px 0;
   border-style:groove;
-  border: 5px solid yellow;
+  /*border: 5px solid yellow;*/
   /*border-width: 1px;*/
 }
 
@@ -92,7 +95,7 @@ p {
   background-color: #9DB4C0;
   padding: 5px 0 40px 0;
   border-style:groove;
-  border: 5px solid green;
+  /*border: 5px solid green;*/
   /*border-width: 1px;*/
   font-family: monospace;
 }
@@ -101,7 +104,7 @@ p {
   background-color:	#19223A;
   padding: 5px 0 50px 0;
   border-style:groove;
-  border: 5px solid red;
+  /*border: 5px solid red;*/
   /*border-width: 1px;*/
   font-family: monospace;
 }
@@ -122,7 +125,7 @@ p {
 }
 
 #capstoneportfolio{
-    background-color: #19223A;
+  background-color: #19223A;
   padding: 10px 0 10px 0;
   margin: 40px 0px 0 0px;
 }
@@ -135,7 +138,7 @@ p {
 }
   
 #contactscreen {
-    background-color:#9DB4C0;
+  background-color:#9DB4C0;
   padding: 20px;
   margin: 0;
   border-radius: 3px;
