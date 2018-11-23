@@ -1,198 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <!-- external css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+	<title>Pandi's Web Page</title>
 
+	<!-- font awesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
-  <div class="nav-bar">
-    <ul>
-      <a href="#About">
-        <li>About</li>
-      </a>
-      <a href="#Projects">
-        <li>Works</li>
-      </a>
-      <a href="#Contact">
-        <li>Contact</li>
-      </a>
-    </ul>
-  </div>
-  <div class="nav-bar-buffer"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="panel-01">
-          <div class="content">
-            <div>
-              <div class="word1">Imagine.&nbsp;</div>
-              <div class="word2">Create.&nbsp;</div>
-              <div class="word3">Achieve.</div>
-            </div>
-            <hr class="hr-divider">
-            <div class="word4">Frontend Developer</div>
-            <div class="social-buttons">
-              <a target="_blank" href="https://www.linkedin.com/in/daniel-noeun-154610b7/">
-                <button>LinkedIn</button>
-              </a>
-              <a target="_blank" href="https://github.com/inzendn">
-                <button>GitHub</button>
-              </a>
-              <a target="_blank" href="https://www.freecodecamp.org/inzendn">
-                <button>freeCodeCamp</button>
-              </a>
-            </div>
-          </div>
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<!-- fav icon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/Icon_white_512.png">
+
+</head>
+<body>
+
+<div class= "container-fluid">
+	<!-- Navigation Panel -->
+	
+		<div class="row">
+		<ul class="panelid">
+			<li><a href="#aboutpage">About</a></il>
+			<li><a href="#portfoliopage">Portfolio</a></li>
+			<li><a href="#contactpage">Contact</a> </li>
+		</ul>
+		</div>
+
+<!--Page structure-->
+
+<div class="row" id="frontpage">
+	<div class="col-md-1 col-1"></div>
+    <div class="col-md-10 col-10" id="mainpage"> 
+    
+    <!--about-->
+	<section id="aboutpage" >
+	    <div class="row">
+	    	<div class="col-md-4 col-6">
+	    		<img class="profileimage img-responsive img-fluid" src="assets/images/me.jpg">
+	    	</div>
+		    <div class="col-md-6 col-12">
+		    	<h1>Rey Philip Pandi</h1>
+		    	<h3>FULL STACK WEB DEVELOPER </h3>
+		    	<p>Rey Philip Pandi is a Full stack Web Developer from a Tuitt Coding Bootcamp. Working for Electronics industry for the pass 12 years, he intends to learn more about coding and hoping to help the world be a better place thru coding.</p>
+			    <hr>
+			    <h4>HTML/CSS | Bootstrap | Javascript | PHP | JQuery | MySQL | Git | Laravel</h4>
+		    </div>
+		</div>
+    </section>
+
+    <!--Portfolio-->
+    <section id="portfoliopage">
+        <h2 style="color:#19223A">Portfolio</h2>
+
+        <!-- activity portfolio-->
+        <div class="portinfo"> Activity in BootCamp </div>
+        <div id="activityportfolio"  >
+	        <div class="row portfoliobox"> 
+	        	<div class="col-md-3 col-3">
+	        		<a href="#"> 
+	        		<img class="img-responsive img-fluid"  src="assets/images/Under_Construction_Sign.png"></a>
+	        	</div>
+	        	<div  class="col-md-3 col-3">
+	        		<a href="#">
+	        		<img class="img-responsive img-fluid"  src="assets/images/Under_Construction_Sign.png"></a>
+	        	</div>
+	        	<div  class="col-md-3 col-3">
+	        		<a href="#">
+	        		<img class="img-responsive img-fluid"  src="assets/images/Under_Construction_Sign.png"></a>
+	        	</div>
+	        	<div  class="col-md-3 col-3">
+	        		<a href="#">
+	        		<img class="img-responsive img-fluid"  src="assets/images/Under_Construction_Sign.png"></a>
+	        	</div>
+	        </div>
         </div>
-      </div>
+        
+        <!--capstone portfolio-->
+        <section id="portfolio" class="container py-5">
+        	<div class="row">
+
+        		<div class="col-12 col-md-4 col-lg-4">
+        			<div id="capstone-card" class="card">
+        				<img id="img-caps1" class="img-fluid card-img-top" src="assets/images/capstone1.jpg" alt="under_construction">
+
+        				<div class="card-body">
+        					<h3 class="card-title text-center"><em>Photography</em></h3>
+        					<p>This Capstone project was made with the help of HTML/CSS and Bootstrap.</p>
+        					<a href="https://pandirey.github.io/capstone1/" target="_blank">
+        						<button class="btn btn-outline primary">See my Capstone 1.</button>
+        					</a>
+        				</div>
+        			</div> <!-- end of card -->
+        		</div> <!-- end of col -->
+
+        		<div class="col-12 col-md-4 col-lg-4">
+        			<div id="capstone-card" class="card">
+        				<img class="img-fluid card-img-top" src="assets/images/Under_Construction_Sign.png">
+        				<div class="card-body">
+        					<h3 class="card-title">Capstone 2</h3>
+        					<p>This text describes my website.</p>
+        					<button class="btn btn-outline primary">See my Capstone 2.</button>
+        				</div>
+        			</div> <!-- end of card -->
+        		</div> <!-- end of col -->
+
+        		<div class="col-12 col-md-4 col-lg-4">
+        			<div id="capstone-card" class="card">
+        				<img class="img-fluid card-img-top" src="assets/images/Under_Construction_Sign.png">
+        				<div class="card-body">
+        					<h3 class="card-title">Capstone 3</h3>
+        					<p>This text describes my website.</p>
+        					<button class="btn btn-outline primary">See my Capstone 3.</button>
+        				</div>
+        			</div> <!-- end of card -->
+        		</div> <!-- end of col -->
+
+        	</div> <!-- end of row -->
+        </section>
+    </section>
+
+
+    <!--Contact-->
+    <section  id="contactpage"> <h2 style="color: #E0FBFC"> Contact <h2> 
+        <div  id="contactscreen">
+	        <div class="container-fluid row">
+	            <div class="col emailme">
+	                <form><input type="text" placeholder=" Email Address"></form>
+		            <form><input type="text" placeholder=" Name"></form>
+		            <textarea rows="10" placeholder="Write your message, comment or suggestion here."></textarea> 
+		            <button type="submit" class="submitemail">Submit</button>
+	            </div>
+
+	            <div id="emailinfo" class="col-md-4 col-10">
+	                <a href="#" class="coloredinfotext ">
+	                <b>If you'd like to contact me, you can use this form to email me, or click here.</b></a>
+	            </div>
+	        </div>
+        </div> <!-- end of contactscreen -->
+    </section> <!-- end of contactpage -->
+
+   
+
+
     </div>
 
-    <div id="About" class="header">
-      <h1>ABOUT ME</h1>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="panel-02">
-          <div class="content" style="display:flex; justify-content:center; align-items:center">
-            <div class="profile-container">
-              <div class="img">
-                <img src="https://avatars3.githubusercontent.com/u/10301859">
-              </div>
-              <div class="statement">
-                <div>
-                  <div>
-                    <div>To turn imagination into reality, to push that reality to its limits, and to achieve progress far beyond
-                      the realms of what we can see.</div>
-                    <div>&nbsp;</div>
-                    <div><center>Daniel Noeun,
-                      <span style="font-style:italic;color:rgba(225,0,0,1)">Developer</span>
-                      <div>Portland, Oregon</div></center>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="statement skill-list">
-            HTML/CSS • JavaScript • React • Agile development
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="panel-03">
-            <div class="content">
-              <div>
-                Complexity through Simplicity
-              </div>
-              <hr class="hr-divider">
-              <div class="word4">The most powerful designs are the simplest</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="Projects" class="header">
-        <h1>PROJECTS</h1>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="panel-04">
-            <div class="content">
-              <div class="project-container">
-                <a target="_blank" href="https://codepen.io/inzendn/pen/PRwazK">
-                  <div class="img">
-                    <img src="https://elelga.ch.files.1drv.com/y4m0Hbc38sZic2mDIVPSu_KJClqiBdvZ_Le2GRW1zb5H2iDTAvuhOgpiETHSd0cJgZT4OrLM4KzHO4yNXnXlybquj7t2ZK6s9p1eHSv5uOoxjJIFUejVpTCLjyIO55n3ngDxQSIS7zQ-46tWosBPw5pJbQlQtw40wG4aPmD141cIQMvVGXzAKtCyfwDI4lm16RWtxupgTyRicsbp9UVRfBLyg/calculator.jpg?psid=1">
-                  </div>
-                </a>
-                <div class="label">Calculator</div>
-              </div>
-              <div class="project-container">
-                <a target="_blank" href="https://codepen.io/inzendn/pen/qxvGVz">
-                  <div class="img">
-                    <img src="https://hbos6a.ch.files.1drv.com/y4mane31c8WJYEBxYrlrVtb081EMDWQuvueR6QNiap0yOR0uQccR3drfVfohtdkgx9_fOrwjqFLjMMjDRchA-mC6edzR4XwJVhDLbSkt6nSRza3YIDc5f1qaHP1Vc8CFQwbo4iJoaWhdANDKOWYECgJ_gbXPe76L4mJm8O_NEr8XlvYq2lziLrOM1sVQDvqJOcMMGfqOrK65jNERd0hbUuRnQ/wikiviewer.jpg?psid=1">
-                  </div>
-                </a>
-                <div class="label">Wiki Searcher</div>
-              </div>
-              <div class="project-container">
-                <a target="_blank" href="https://codepen.io/inzendn/pen/xWGeJy">
-                  <div class="img">
-                    <img src="https://fcxmuw.ch.files.1drv.com/y4mUMRBpR0vw_0_bL0zWskzS34Jg4iADm_u8oMLVkAt5mG6EKfH7KR9vrTGWCGuTvVODHG8OUJ6k26jD1MeS5TJ3S-8D8-AqyGID0RAR5dHiXWqghHhwfXqyYsuChGPRBY82DzWiRNc7eniVpmv6Dy_Vk32bvOXVOxL0XO2t6vRreNG_ZYSit0w8O3hcQFFK8QL8fs5QlSFAKL-cOY5WkTpTg/tictactoe.jpg?psid=1">
-                  </div>
-                </a>
-                <div class="label">Tic Tac Toe</div>
-              </div>
-              <div class="project-container">
-                <a target="_blank" href="https://codepen.io/inzendn/pen/jZJvZr">
-                  <div class="img">
-                    <img src="https://s7wbaa.ch.files.1drv.com/y4mLPT33_GZNkCA-cYUoGtWeR2UXFhMQIPtk3C7iwbcMulZ4L1VpDE96dOlSqfaRy_9R34rrmqUEeKdkxrqTgWFZK_LJ8ZJVcWS6DXPVkvwOu4BPJfeEOI8vVlkt_ySuAYvq3JlZDvglR-sZexq8ceUY9VG_bx5W49C3DLfR47pSJhGjFBKuhtoCKGkNL0E32A7P8COi8SmCqXKDpcrma1XmA/weatherapi.jpg?psid=1">
-                  </div>
-                </a>
-                <div class="label">Weather</div>
-              </div>
-              <div class="project-container">
-                <a target="_blank" href="https://codepen.io/inzendn/pen/WMWKaL">
-                  <div class="img">
-                    <img src="https://5ildow.ch.files.1drv.com/y4mOKn1rKzL0UNaN_INGZ_aHciIvNqi7zca3pg6nGKj-fTjGsuyeGhCifraV71KbwUYXlr_RZZv3N4dR7FoPWWR3QCoz67hV3ryPyDkRxnsU5B2s-xkd3jI-H49dCcYFh4X1WiD4A9POcjbC_3eSXpcQsbh6lUsnr9gMeIYcWT6Wspwh_ctFeR6Qf3Ft13KzseclM5gtoc-Bsy65Sa-wYybTQ/twitchviewer.jpg?psid=1">
-                  </div>
-                </a>
-                <div class="label">TwitchTV Viewer</div>
-              </div>
-              <div class="project-container">
-                <a target="_blank" href="https://codepen.io/inzendn/pen/VXveyg">
-                  <div class="img">
-                    <img src="https://sed0xq.ch.files.1drv.com/y4mR2-Qlf_aArM_JAHyY97qv61RSRP7Zt-ffIIu4KQQBjgIdLHobztdqy3zWcIgzPa5HG3OpucBpZWxZIJ0o9z167miEi4V0AxIL_rM0BKoqaO69WeCM3CWG7oxKspHjryMBnLitsTFsxBvzYs8_8UYT73dKcct65kB3AvQoOu6F87E1nn0OnMrRsq2PsryOO2hxzR1TmkCV6C-W6aYOUvW3Q/simon.jpg?psid=1">
-                  </div>
-                </a>
-                <div class="label">Simon Game</div>
-              </div>
-              <div class="project-container">
-                <a target="_blank" href="https://codepen.io/inzendn/pen/dmPwRE">
-                  <div class="img">
-                    <img src="https://3pl9dq.ch.files.1drv.com/y4mbLx6elKOtzC0vYb2hIL-bEzMwmLRxDwXkXbpDv-BmN2HQuXs-HHNO-4e35ZIJwn81s1f_7DtVinLQolYbG1eHwW3JJ2F9EtF-fL3IwavrfitO9CcsiyKCpBVJcsFrZe1_-I90WBXzlRUZJSzsdJllsU1EWl2WBY-9_4SKAeGIOGKRxtg_66EKbJybjfw2LrnPBgFYo0AqU9qOZcAtOzyOw/pomodoro.jpg?psid=1">
-                  </div>
-                </a>
-                <div class="label">Pomodoro Clock</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+	
+	
 
-      <div class="row">
-        <div class="col">
-          <div class="panel-05">
-            <div class="content">
-              <div>
-                Clarity and Beauty
-              </div>
-              <hr class="hr-divider">
-              <div class="word4" >A clear design can still be beautiful</div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div id="Contact" class="header">
-        <h1>CONTACT</h1>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="panel-06">
-            <div class="content">
-              <center>Currently Unavailable</center>
-              <br><br><br><br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	
+	<script src="assets/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+</html>
